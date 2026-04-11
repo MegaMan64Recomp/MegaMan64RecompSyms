@@ -662,6 +662,7 @@ symbols = [
     { name = "_binary_assets_l3dex2_bin_end", vram = 0x800A6C90 },
     { name = "D_800A6C94_82094", vram = 0x800A6C94 },
     { name = "D_800A6C98_82098", vram = 0x800A6C98 },
+    { name = "D_800A6C9A_8209A", vram = 0x800A6C9A },
     { name = "D_800A6C9C_8209C", vram = 0x800A6C9C },
     { name = "D_800A6CA0_820A0", vram = 0x800A6CA0 },
     { name = "D_800A6CA4_820A4", vram = 0x800A6CA4 },
@@ -1077,8 +1078,11 @@ symbols = [
     { name = "D_800ACA58_87E58", vram = 0x800ACA58 },
     { name = "D_800ACA5C_87E5C", vram = 0x800ACA5C },
     { name = "D_800ACAB0_87EB0", vram = 0x800ACAB0 },
+    { name = "D_800ACAB2_87EB2", vram = 0x800ACAB2 }, # manually added
+    { name = "D_800ACAB3_87EB3", vram = 0x800ACAB3 }, # manually added
     { name = "D_800ACAB4_87EB4", vram = 0x800ACAB4 },
     { name = "D_800ACAB8_87EB8", vram = 0x800ACAB8 },
+    { name = "D_800ACABA_87EBA", vram = 0x800ACABA }, # manually added
     { name = "D_800ACC90_88090", vram = 0x800ACC90 },
     { name = "D_800ACCAC_880AC", vram = 0x800ACCAC },
     { name = "D_800ACCE0_880E0", vram = 0x800ACCE0 },
@@ -6921,6 +6925,7 @@ symbols = [
     { name = "D_801FEECC_1DA2CC", vram = 0x801FEECC },
     { name = "D_801FEECD_1DA2CD", vram = 0x801FEECD },
     { name = "D_801FEECE_1DA2CE", vram = 0x801FEECE },
+    { name = "D_801FEECF_1DA2CF", vram = 0x801FEECF },
     { name = "D_801FF2C0_1DA6C0", vram = 0x801FF2C0 },
     { name = "D_801FF2E0_1DA6E0", vram = 0x801FF2E0 },
     { name = "D_801FF342_1DA742", vram = 0x801FF342 },
@@ -7362,6 +7367,8 @@ symbols = [
     { name = "ovl1_RODATA_END", vram = 0x80225140 },
     { name = "ovl1_DATA_END", vram = 0x80225140 },
     { name = "_binary_assets_overlays_AED70_bin_end", vram = 0x80225140 },
+    { name = "D_80224E80", vram= 0x80224E80},
+    { name = "D_80224F68", vram= 0x80224F68}
 ]
 
 [[section]]
